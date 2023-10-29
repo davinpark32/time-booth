@@ -87,6 +87,21 @@
             margin-top: 40px;
             color: black;
         }
+        @media (max-width: 480px) {
+            .wrapper {
+            min-height: 100%;
+            margin-bottom: -50px;
+            display: flex;
+            flex-direction: column;
+            }
+            .receipt {
+                grid-template-columns: 1fr;
+            }
+            .sidebar {
+                display: flex;
+                justify-content: space-around;
+            }
+        }
     </style>
 </head>
 <body>
